@@ -1,0 +1,28 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+grid {
+  display: flex;
+  flex-direction: column;
+}
+
+grid > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+grid > div > div {
+  height: 1px;
+  width: 1px;
+}
+
+grid > div > div.is-filled {
+  background: black;
+}
+
+#app grid {
+  margin: 10px auto;
+}
